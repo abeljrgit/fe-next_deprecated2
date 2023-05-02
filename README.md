@@ -54,49 +54,45 @@ Test your work(npm, jest, unit testing)
   npm run test
 ```
 
-Test your work(npm, jest, unit testing)
+Test your work(npm, cypress, unit testing, end-to-end)
 
 ```bash
   npm run cypress:headless
 ```
 
-Test your work(npm, jest, end-to-end)
-
 ```bash
   npm run e2e:headless
 ```
 
+Export your files(npm, production purpose, spa):
+
+- Please take note that you cannot use ISG, SSG and some Next.JS functionality. Kindly refer to the documentation
+
+```bash
+  npm run export
+```
+
 ## Folder Structure
 
-Implemented presentation-domain-data architecture.
+Routing procedure is file-based.
 
-<p align="center">
-  <img src="https://abeljrgit.github.io/assets/Presentation-Domain-Data.drawio.png">
-</p>
-
-    ❓
-    ├── ❓
-    |   ├── ❓
-    |   └── ❓
-    ├── ❓
-    |   ├── ❓
-    |   ├── ❓
-    |   ├── ❓
-    |   └── ❓
-    └── ❓
-        ├── ❓
-        ├── ❓
-        ├── ❓
-        ├── ❓
-        └── ❓
+    src
+    ├── assets
+    ├── components
+    ├── public
+    ├── services
+    └── src
+        ├── pages
+        |   └── api - internal api
+        └── styles
 
 ## Deployment
 
-❓ Netlify  
-❓ Vercel  
+✅ Netlify  
+✅ Vercel  
 ❓ Azure  
-❓ AWS  
-❓ GCP
+❌ AWS  
+❌ GCP
 
 ## Documentation
 
