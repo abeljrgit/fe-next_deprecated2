@@ -88,11 +88,14 @@ Routing procedure is file-based.
 
 ## Deployment
 
+- ✅(Tested)
+- ❓(Not Tested)
+
 ✅ Netlify  
 ✅ Vercel  
 ❓ Azure  
-❌ AWS  
-❌ GCP
+❓ AWS  
+❓ GCP
 
 ## Documentation
 
