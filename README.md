@@ -93,7 +93,7 @@ Routing procedure is file-based.
 
 ✅ Netlify  
 ✅ Vercel  
-❓ Azure  
+✅ Azure  
 ❓ AWS  
 ❓ GCP
 
